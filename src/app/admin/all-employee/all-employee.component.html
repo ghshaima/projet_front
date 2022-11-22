@@ -1,0 +1,68 @@
+<div class="navbar">
+    <app-navbar-admin></app-navbar-admin>
+</div>
+
+
+<div class="body">
+    <div id="sidebar">
+        <app-sidebar-admin></app-sidebar-admin>
+    </div>
+</div>
+<div id="content">
+    
+</div>
+
+<body>
+    <div>
+    <h1>Employee Management</h1>
+  
+    <div class="table-container">
+      <div class="table-header">
+        <h2>Employee List</h2>
+        <button class="add-another btn btn-primary ">Add another employee</button>
+      </div>
+      <table class="customer-table table table-hover" style="width:100%">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Email</th>
+            <th>Password</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+  
+        </tbody>
+      </table>
+    </div>
+  
+    <div class="form-container">
+      <form name="customer-details" class="customer-details form-horizontal">
+        <fieldset>
+          <legend>Employee details</legend>
+          <div class="form-group">
+            <label for="txtName" class="control-label col-md-4">*Name:</label>
+            <div class="col-md-8">
+              <input type="text" id="txtName" name="name" placeholder="Enter Your Name Here" maxlength="50">
+              <div class="error-msg"></div>
+            </div>
+          </div>
+          
+          
+         
+          <button class="reset-button btn btn-danger">Reset</button>
+          <button class="add-button btn btn-success">Add</button>
+          <button class="update-button btn btn-primary">Update</button>
+        </fieldset>
+      </form>
+    </div>
+  
+    <div class="message"></div>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+  
+</div>
+</body>
+  

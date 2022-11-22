@@ -17,7 +17,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatListModule} from '@angular/material/list'; 
 import {MatMenuModule} from '@angular/material/menu';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { RouterModule, ROUTES } from '@angular/router';
 import { DashboardAdminComponent } from './admin/dashboard-admin/dashboard-admin.component';
 
 import { NavbarAdminComponent } from './admin/navbar-admin/navbar-admin.component';
@@ -31,6 +31,9 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { AddEmployeeComponent } from './admin/add-employee/add-employee.component';
 import { AddAbsenceComponent } from './admin/add-absence/add-absence.component';
+
+import { AllEmployeeComponent } from './admin/all-employee/all-employee.component';
+import { ManageEmployeeComponent } from './admin/manage-employee/manage-employee.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +51,9 @@ import { AddAbsenceComponent } from './admin/add-absence/add-absence.component';
     
      AddEmployeeComponent,
      AddAbsenceComponent,
+   
+     AllEmployeeComponent,
+         ManageEmployeeComponent,
      
     
     

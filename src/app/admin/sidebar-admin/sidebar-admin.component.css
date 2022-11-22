@@ -1,33 +1,4 @@
-.mat-drawer {
-    width: 350px;
+.sidebar{
+    width: 20%;
+    height: 100vh;
 }
- 
- .mat-drawer-container {
-    height: 100%;
-
- }
-
- .mat-drawer-content{
-    padding: 20px;
- }
-
- .profile-card{
-    text-align:center;
-    padding: 0 20px 20px 20px;
- }
- .img {
-
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
- }
-
-
-    .mat-icon {
-        vertical-align: middle;
-        margin-right: 20px;
-    }
-    
-
-   
