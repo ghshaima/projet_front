@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+  }
+  * {
+    font-size: 14px;
+  }
+
+  .app-kaizala-container {
+   padding-left: 200px;
+   padding-top: 70px;
+
+  }
+  .app-kaizala-divider {
+    height: 3px;
+    width: 100%;
+   
+    background: #efefef
+    
+  }
+  .app-kaizala-header{
+    padding: 0 15px;
+  }
+  .app-kaizala-header {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    border-bottom: 3px solid #efefef;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  .app-kaizala-header {
+    padding: 20px 0;
+  }
+  .app-kaizala-body .app-kaizala-title {
+    font-size: 30px;
+    margin: 18px 0 20px 0;
+    padding: 0 15px;
+  }
+  
+  .app-kaizala-tabs {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 15px 20px 15px;
+    border-bottom: 3px solid #efefef;
+  }
+  .app-kaizala-tabs .app-kaizala-tab {
+    padding: 10px;
+    border: 1px solid #164791;
+    border-radius: 30px;
+    min-width: 100px;
+    text-align: center;
+    flex: 1 1 100%;
+    margin: 0 5px;
+    color: #164791;
+    min-width: calc(100% / 4 - 32px);
+    max-width: calc(100% / 4 - 32px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .app-kaizala-tabs .app-kaizala-tab.active {
+    background: #164791;
+    color: white;
+  }
+  .app-kaizala-tabs .app-kaizala-tab:hover {
+    cursor: pointer;
+    background: #58b8f8;
+    color: white;
+    border-color: #58b8f8;
+  }
+  
+  .app-kaizala-reason {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 18px 0 0;
+  }
+  .app-kaizala-reason-content h5 {
+    margin: 0;
+    font-size: 20px;
+    color: #164791;
+  }
+  .app-kaizala-reason-content p {
+    margin: 1px 0 0;
+  }
+  .app-kaizala-reason-declined,
+  .app-kaizala-reason-approved,
+  .app-kaizala-reason-pending {
+    border: 2px solid;
+    padding: 7px 5px 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 15px;
+    min-width: 71px;
+    text-align: center;
+  }
+  .app-kaizala-reason-declined {
+    border-color: #e04741;
+    color: #e04741;
+  }
+  .app-kaizala-reason-approved {
+    border-color: #458410;
+    color: #458410;
+  }
+  .app-kaizala-reason-pending {
+    border-color: #164791;
+    color: #164791;
+  }
+  
+  .app-kaizala-reason-content {
+    width: calc(100% - 122px);
+  }
+  .app-kaizala-reason-date {
+    padding-left: 48px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  }
+  .app-kaizala-reason-date p {
+      margin: 10px 0 20px;
+      
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+  }
+  .app-kaizala-reason-date p ~ p:before {
+    content: '-';
+    margin: 0 5px;
+  }
+  .app-kaizala-reason-date p ~ p {
+    max-width: calc(50% + 1px);
+  }
+  
+  .app-kaizala-reason-icon {
+    margin: 0 15px;
+    width: 24px;
+  }
+  
+  .app-kaizala-reason-content * {
+    width: 100%;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+
+
+  .main-header{
+    background:#ddd;
+    padding:10px 0;
+  }
+  
+  .leave-form{
+    padding:30px 0;
+  }

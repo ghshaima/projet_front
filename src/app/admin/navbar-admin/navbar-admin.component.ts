@@ -11,5 +11,5 @@ export class NavbarAdminComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+logout(){}
 }

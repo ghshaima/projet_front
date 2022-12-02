@@ -29,11 +29,21 @@ import { SidebarEmployeeComponent } from './employee/sidebar-employee/sidebar-em
 import { DashboardEmployeeComponent } from './employee/dashboard-employee/dashboard-employee.component';
 import {MatDividerModule} from '@angular/material/divider'; 
 import {MatSidenavModule} from '@angular/material/sidenav';
-import { AddEmployeeComponent } from './admin/add-employee/add-employee.component';
 import { AddAbsenceComponent } from './admin/add-absence/add-absence.component';
 
-import { AllEmployeeComponent } from './admin/all-employee/all-employee.component';
 import { ManageEmployeeComponent } from './admin/manage-employee/manage-employee.component';
+import { EmployeeRequestsComponent } from './admin/employee-requests/employee-requests.component';
+import { SubmitRequestComponent } from './employee/submit-request/submit-request.component';
+import { LeaveRequestComponent } from './admin/leave-request/leave-request.component';
+
+
+
+
+
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -49,11 +59,14 @@ import { ManageEmployeeComponent } from './admin/manage-employee/manage-employee
      SidebarEmployeeComponent,
      DashboardEmployeeComponent,
     
-     AddEmployeeComponent,
+     
      AddAbsenceComponent,
-   
-     AllEmployeeComponent,
-         ManageEmployeeComponent,
+    ManageEmployeeComponent,
+    EmployeeRequestsComponent,
+    SubmitRequestComponent,
+    LeaveRequestComponent,
+         
+     
      
     
     
@@ -85,6 +98,7 @@ import { ManageEmployeeComponent } from './admin/manage-employee/manage-employee
     MatListModule,
     MatDividerModule,
     
+   
    
   ],
 

@@ -4,8 +4,11 @@ import { LoginComponent } from './login/login.component';
 import { DashboardAdminComponent } from './admin/dashboard-admin/dashboard-admin.component';
 import { DashboardEmployeeComponent } from './employee/dashboard-employee/dashboard-employee.component';
 import { RegisterComponent } from './register/register.component';
-import {AddEmployeeComponent} from './admin/add-employee/add-employee.component';
-import {AllEmployeeComponent} from './admin/all-employee/all-employee.component'; 
+import {EmployeeRequestsComponent } from './admin/employee-requests/employee-requests.component';
+import{LeaveRequestComponent} from './admin/leave-request/leave-request.component';
+import { ManageEmployeeComponent } from './admin/manage-employee/manage-employee.component';
+
+
 
 const routes: Routes = [
   
@@ -13,9 +16,10 @@ const routes: Routes = [
   {path:'dashboard-admin', component:DashboardAdminComponent},
   {path:'dashboard-employee', component:DashboardEmployeeComponent },
   {path:'register', component:RegisterComponent},
-  {path:'add-employee', component:AddEmployeeComponent},
-  {path:'all-employee', component:AllEmployeeComponent},
-
+  {path:'employee-requests', component:EmployeeRequestsComponent },
+  {path:'admin/leave-requests' , component:LeaveRequestComponent},
+  {path:'manage-employee', component:ManageEmployeeComponent},
+  
 ];
 
 @NgModule({
